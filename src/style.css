@@ -1,0 +1,64 @@
+/* ---------- Base ---------- */
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  overflow: hidden; /* chart pages: the canvas fills the screen */
+}
+a { color: inherit; }
+code { background: #1e293b; padding: 1px 6px; border-radius: 4px; font-size: 0.9em; }
+
+/* The div where Three.js puts its <canvas> */
+#app, #app canvas { position: fixed; inset: 0; display: block; }
+
+/* ---------- Floating info panel (chart pages) ---------- */
+.panel {
+  position: fixed; top: 16px; left: 16px; z-index: 10;
+  max-width: 320px; padding: 16px 18px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid #334155; border-radius: 12px;
+  backdrop-filter: blur(6px);
+}
+.panel h1 { font-size: 18px; margin: 6px 0 4px; }
+.panel p { font-size: 13px; color: #94a3b8; margin: 0 0 10px; }
+.back { font-size: 13px; color: #60a5fa; text-decoration: none; }
+.filter { display: flex; gap: 8px; align-items: center; font-size: 13px; margin-bottom: 10px; }
+.filter select {
+  background: #1e293b; color: #e2e8f0; border: 1px solid #475569;
+  border-radius: 6px; padding: 4px 8px;
+}
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 12px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+
+/* ---------- Tooltip ---------- */
+.tooltip {
+  position: fixed; z-index: 20; pointer-events: none;
+  padding: 8px 10px; font-size: 13px; line-height: 1.4;
+  background: #f8fafc; color: #0f172a; border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.35);
+  display: none;
+}
+
+/* ---------- Landing page ---------- */
+body.landing { overflow: auto; }
+.container { max-width: 880px; margin: 0 auto; padding: 56px 24px; }
+.eyebrow { color: #60a5fa; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; font-size: 13px; margin: 0; }
+.landing h1 { font-size: 36px; margin: 8px 0 12px; }
+.lead { color: #94a3b8; font-size: 17px; line-height: 1.6; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 32px 0; }
+.card {
+  display: block; padding: 20px; text-decoration: none;
+  background: #1e293b; border: 1px solid #334155; border-radius: 14px;
+  transition: transform .15s, border-color .15s;
+}
+.card:hover { transform: translateY(-3px); border-color: #60a5fa; }
+.card h2 { margin: 0 0 8px; font-size: 19px; }
+.card p { color: #94a3b8; line-height: 1.5; margin: 0 0 14px; }
+.tag { font-size: 12px; color: #60a5fa; }
+.how h2 { font-size: 20px; }
+.how li { color: #cbd5e1; line-height: 1.7; margin-bottom: 6px; }
+footer { margin-top: 40px; color: #64748b; font-size: 13px; }
