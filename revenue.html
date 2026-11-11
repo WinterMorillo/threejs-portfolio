@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Revenue by Region &amp; Month – 3D</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <!-- The panel floats on top of the 3D canvas -->
+  <div class="panel">
+    <a href="/" class="back">← Back</a>
+    <h1>Revenue by Region &amp; Month</h1>
+    <p>Fictional data · drag to rotate · scroll to zoom · hover a bar</p>
+    <div id="legend" class="legend"></div>
+  </div>
+
+  <!-- Tooltip shown when the mouse is over a bar -->
+  <div id="tooltip" class="tooltip"></div>
+
+  <!-- Three.js will add its <canvas> inside this div -->
+  <div id="app"></div>
+
+  <script type="module" src="/src/revenue.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compensation by Business Unit – 3D</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div class="panel">
+    <a href="/" class="back">← Back</a>
+    <h1>Compensation by Business Unit</h1>
+    <p>Fictional data · stacked: base + bonus + commissions</p>
+    <label class="filter">
+      Year
+      <select id="yearSelect"></select>
+    </label>
+    <div id="legend" class="legend"></div>
+  </div>
+
+  <div id="tooltip" class="tooltip"></div>
+  <div id="app"></div>
+
+  <script type="module" src="/src/compensation.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Data Visualization – Winter De Los Santos Morillo</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body class="landing">
+  <main class="container">
+    <header>
+      <p class="eyebrow">Data Engineering × Three.js</p>
+      <h1>3D Data Visualization Examples</h1>
+      <p class="lead">
+        Small demos showing how data prepared in SQL (SQL Server / Snowflake) can be
+        exported as JSON and turned into interactive 3D charts in the browser with Three.js.
+        All data here is fictional.
+      </p>
+    </header>
+
+    <section class="cards">
+      <a class="card" href="/revenue.html">
+        <h2>Revenue by Region &amp; Month</h2>
+        <p>3D bar grid: regions × months, bar height = revenue. Orbit with the mouse,
+           hover a bar to see the value.</p>
+        <span class="tag">JSON feed · OrbitControls · Raycaster tooltips</span>
+      </a>
+      <a class="card" href="/compensation.html">
+        <h2>Compensation by Business Unit</h2>
+        <p>Stacked 3D columns of base salary, bonus and commissions per business unit,
+           with a year filter.</p>
+        <span class="tag">Stacked bars · Filters · Legend</span>
+      </a>
+    </section>
+
+    <section class="how">
+      <h2>How the data flows</h2>
+      <ol>
+        <li><b>SQL</b> – a query or stored procedure aggregates the data
+            (e.g. <code>SELECT region, month, SUM(revenue) ... GROUP BY region, month</code>).</li>
+        <li><b>JSON</b> – the result is exported as JSON (<code>FOR JSON PATH</code> in SQL Server,
+            or an API endpoint). Here it is a static file in <code>/public/data</code>.</li>
+        <li><b>Three.js</b> – the page loads the JSON with <code>fetch()</code> and creates one 3D bar per row.</li>
+      </ol>
+    </section>
+
+    <footer>Built by Winter De Los Santos Morillo · Three.js + Vite</footer>
+  </main>
+</body>
+</html>
