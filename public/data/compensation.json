@@ -1,0 +1,128 @@
+[
+  {
+    "year": 2023,
+    "unit": "Retail Banking",
+    "base": 2147000,
+    "bonus": 243000,
+    "commissions": 227000
+  },
+  {
+    "year": 2023,
+    "unit": "Corporate Banking",
+    "base": 1609000,
+    "bonus": 330000,
+    "commissions": 79000
+  },
+  {
+    "year": 2023,
+    "unit": "Operations",
+    "base": 1327000,
+    "bonus": 120000,
+    "commissions": 0
+  },
+  {
+    "year": 2023,
+    "unit": "Technology",
+    "base": 1818000,
+    "bonus": 158000,
+    "commissions": 0
+  },
+  {
+    "year": 2023,
+    "unit": "Sales",
+    "base": 1009000,
+    "bonus": 69000,
+    "commissions": 498000
+  },
+  {
+    "year": 2023,
+    "unit": "HR & Admin",
+    "base": 691000,
+    "bonus": 47000,
+    "commissions": 0
+  },
+  {
+    "year": 2024,
+    "unit": "Retail Banking",
+    "base": 2162000,
+    "bonus": 256000,
+    "commissions": 195000
+  },
+  {
+    "year": 2024,
+    "unit": "Corporate Banking",
+    "base": 1657000,
+    "bonus": 288000,
+    "commissions": 90000
+  },
+  {
+    "year": 2024,
+    "unit": "Operations",
+    "base": 1347000,
+    "bonus": 100000,
+    "commissions": 0
+  },
+  {
+    "year": 2024,
+    "unit": "Technology",
+    "base": 1951000,
+    "bonus": 171000,
+    "commissions": 0
+  },
+  {
+    "year": 2024,
+    "unit": "Sales",
+    "base": 1063000,
+    "bonus": 71000,
+    "commissions": 524000
+  },
+  {
+    "year": 2024,
+    "unit": "HR & Admin",
+    "base": 758000,
+    "bonus": 50000,
+    "commissions": 0
+  },
+  {
+    "year": 2025,
+    "unit": "Retail Banking",
+    "base": 2311000,
+    "bonus": 309000,
+    "commissions": 263000
+  },
+  {
+    "year": 2025,
+    "unit": "Corporate Banking",
+    "base": 1739000,
+    "bonus": 314000,
+    "commissions": 80000
+  },
+  {
+    "year": 2025,
+    "unit": "Operations",
+    "base": 1420000,
+    "bonus": 113000,
+    "commissions": 0
+  },
+  {
+    "year": 2025,
+    "unit": "Technology",
+    "base": 1970000,
+    "bonus": 168000,
+    "commissions": 0
+  },
+  {
+    "year": 2025,
+    "unit": "Sales",
+    "base": 1101000,
+    "bonus": 67000,
+    "commissions": 563000
+  },
+  {
+    "year": 2025,
+    "unit": "HR & Admin",
+    "base": 786000,
+    "bonus": 55000,
+    "commissions": 0
+  }
+]

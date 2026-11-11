@@ -1,0 +1,302 @@
+[
+  {
+    "region": "Northeast",
+    "month": "Jan",
+    "revenue": 342000
+  },
+  {
+    "region": "Northeast",
+    "month": "Feb",
+    "revenue": 360200
+  },
+  {
+    "region": "Northeast",
+    "month": "Mar",
+    "revenue": 443100
+  },
+  {
+    "region": "Northeast",
+    "month": "Apr",
+    "revenue": 432500
+  },
+  {
+    "region": "Northeast",
+    "month": "May",
+    "revenue": 509300
+  },
+  {
+    "region": "Northeast",
+    "month": "Jun",
+    "revenue": 506800
+  },
+  {
+    "region": "Northeast",
+    "month": "Jul",
+    "revenue": 470100
+  },
+  {
+    "region": "Northeast",
+    "month": "Aug",
+    "revenue": 493800
+  },
+  {
+    "region": "Northeast",
+    "month": "Sep",
+    "revenue": 417700
+  },
+  {
+    "region": "Northeast",
+    "month": "Oct",
+    "revenue": 421900
+  },
+  {
+    "region": "Northeast",
+    "month": "Nov",
+    "revenue": 370100
+  },
+  {
+    "region": "Northeast",
+    "month": "Dec",
+    "revenue": 367100
+  },
+  {
+    "region": "Southeast",
+    "month": "Jan",
+    "revenue": 291000
+  },
+  {
+    "region": "Southeast",
+    "month": "Feb",
+    "revenue": 343800
+  },
+  {
+    "region": "Southeast",
+    "month": "Mar",
+    "revenue": 331400
+  },
+  {
+    "region": "Southeast",
+    "month": "Apr",
+    "revenue": 372300
+  },
+  {
+    "region": "Southeast",
+    "month": "May",
+    "revenue": 432100
+  },
+  {
+    "region": "Southeast",
+    "month": "Jun",
+    "revenue": 472900
+  },
+  {
+    "region": "Southeast",
+    "month": "Jul",
+    "revenue": 436400
+  },
+  {
+    "region": "Southeast",
+    "month": "Aug",
+    "revenue": 402400
+  },
+  {
+    "region": "Southeast",
+    "month": "Sep",
+    "revenue": 420100
+  },
+  {
+    "region": "Southeast",
+    "month": "Oct",
+    "revenue": 324000
+  },
+  {
+    "region": "Southeast",
+    "month": "Nov",
+    "revenue": 361600
+  },
+  {
+    "region": "Southeast",
+    "month": "Dec",
+    "revenue": 319200
+  },
+  {
+    "region": "Midwest",
+    "month": "Jan",
+    "revenue": 235200
+  },
+  {
+    "region": "Midwest",
+    "month": "Feb",
+    "revenue": 255500
+  },
+  {
+    "region": "Midwest",
+    "month": "Mar",
+    "revenue": 295400
+  },
+  {
+    "region": "Midwest",
+    "month": "Apr",
+    "revenue": 359200
+  },
+  {
+    "region": "Midwest",
+    "month": "May",
+    "revenue": 338100
+  },
+  {
+    "region": "Midwest",
+    "month": "Jun",
+    "revenue": 378100
+  },
+  {
+    "region": "Midwest",
+    "month": "Jul",
+    "revenue": 378600
+  },
+  {
+    "region": "Midwest",
+    "month": "Aug",
+    "revenue": 343200
+  },
+  {
+    "region": "Midwest",
+    "month": "Sep",
+    "revenue": 331900
+  },
+  {
+    "region": "Midwest",
+    "month": "Oct",
+    "revenue": 278700
+  },
+  {
+    "region": "Midwest",
+    "month": "Nov",
+    "revenue": 263800
+  },
+  {
+    "region": "Midwest",
+    "month": "Dec",
+    "revenue": 268800
+  },
+  {
+    "region": "Southwest",
+    "month": "Jan",
+    "revenue": 236100
+  },
+  {
+    "region": "Southwest",
+    "month": "Feb",
+    "revenue": 245300
+  },
+  {
+    "region": "Southwest",
+    "month": "Mar",
+    "revenue": 266200
+  },
+  {
+    "region": "Southwest",
+    "month": "Apr",
+    "revenue": 309200
+  },
+  {
+    "region": "Southwest",
+    "month": "May",
+    "revenue": 322000
+  },
+  {
+    "region": "Southwest",
+    "month": "Jun",
+    "revenue": 321400
+  },
+  {
+    "region": "Southwest",
+    "month": "Jul",
+    "revenue": 351000
+  },
+  {
+    "region": "Southwest",
+    "month": "Aug",
+    "revenue": 329600
+  },
+  {
+    "region": "Southwest",
+    "month": "Sep",
+    "revenue": 280800
+  },
+  {
+    "region": "Southwest",
+    "month": "Oct",
+    "revenue": 279000
+  },
+  {
+    "region": "Southwest",
+    "month": "Nov",
+    "revenue": 261600
+  },
+  {
+    "region": "Southwest",
+    "month": "Dec",
+    "revenue": 276300
+  },
+  {
+    "region": "West",
+    "month": "Jan",
+    "revenue": 406100
+  },
+  {
+    "region": "West",
+    "month": "Feb",
+    "revenue": 406100
+  },
+  {
+    "region": "West",
+    "month": "Mar",
+    "revenue": 516300
+  },
+  {
+    "region": "West",
+    "month": "Apr",
+    "revenue": 478400
+  },
+  {
+    "region": "West",
+    "month": "May",
+    "revenue": 544700
+  },
+  {
+    "region": "West",
+    "month": "Jun",
+    "revenue": 599700
+  },
+  {
+    "region": "West",
+    "month": "Jul",
+    "revenue": 525500
+  },
+  {
+    "region": "West",
+    "month": "Aug",
+    "revenue": 538800
+  },
+  {
+    "region": "West",
+    "month": "Sep",
+    "revenue": 457700
+  },
+  {
+    "region": "West",
+    "month": "Oct",
+    "revenue": 484000
+  },
+  {
+    "region": "West",
+    "month": "Nov",
+    "revenue": 467000
+  },
+  {
+    "region": "West",
+    "month": "Dec",
+    "revenue": 444300
+  }
+]
